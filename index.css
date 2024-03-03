@@ -1,0 +1,109 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:3px;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.mid-bar ul li {
+    list-style-type: none;
+    float: left;
+    font-size: 1.5rem;
+    
+
+}
+.mid-bar ul li a{
+    text-decoration: none;
+    margin-left:30px;
+    
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    transition: 0.8s ease-in-out;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid silver;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition:0.8s ease-in-out;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;  
+}
+.mainlogo{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.mainlogo img{
+    height: 330px;
+    width: 330px;
+}
+.heading h1{
+    font-size: 3rem;
+    margin-top: 5px;
+}
+h2{
+    float: left;
+    margin-left: 10px;  
+    padding: 10px 10px 0 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+.btn2{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.btn1{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: black; 
+    border-radius: 20px;
+    margin-right: 20px; 
+    margin-top: 10px;
+}
+.main2{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.box{
+border: 2px solid white;
+height: 300px;
+width: 200px;
+}
+
+
+
+
